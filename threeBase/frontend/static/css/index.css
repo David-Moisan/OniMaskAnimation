@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ccc;
+    line-height: 1.7;
+}
+
+#container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.section {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    place-items: center;
+    color: #fff;
+    padding: 200px;
+    box-sizing: border-box;
+}
+
+.section h2 {
+    font-size: 8vw;
+    text-transform: uppercase;
+    line-height: 1.1;
+    width: 100%;
+    display: block;
+} 
